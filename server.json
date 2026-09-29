@@ -1,0 +1,14 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/2026-07-28/server.json",
+  "name": "@plugsky/mcp",
+  "version": "1.2.0",
+  "description": "Plugsky over MCP — every AI model (6 tiers of failover), multi-model fusion, real-time web search, clean page fetch, YouTube transcripts, 12 prompts, 10 resources and managed RAG. Remote (Streamable-HTTP) or local (npx).",
+  "homepage": "https://plugsky.com/dashboard#mcp",
+  "repository": "https://github.com/coinplannet/DarkShark",
+  "transports": ["http", "stdio"],
+  "auth": { "type": "bearer", "envVar": "PLUGSKY_API_KEY" },
+  "remote": { "url": "https://plugsky.com/mcp" },
+  "tools": ["plugsky_chat", "plugsky_models", "plugsky_fusion", "plugsky_web_search", "plugsky_web_fetch", "plugsky_youtube_transcript"],
+  "prompts": ["rag-cite", "model-compare", "doc-summarize", "migrate-from-openai", "cost-estimate", "code-review", "translate-localize", "seo-brief", "support-reply", "sql-helper", "image-caption", "release-notes"],
+  "resources": ["plugsky://models", "plugsky://models/free", "plugsky://pricing", "plugsky://plans", "plugsky://tools", "plugsky://mcp-guide", "plugsky://status", "plugsky://docs", "plugsky://changelog", "plugsky://rag"]
+}
