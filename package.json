@@ -1,0 +1,28 @@
+{
+  "name": "@plugsky/mcp",
+  "version": "1.1.0",
+  "description": "Plugsky MCP server — 36 models, RAG knowledge search, platform tools and document ingestion for Claude, Cursor, VS Code, Windsurf, Zed.",
+  "type": "module",
+  "bin": {
+    "plugsky-mcp": "server.mjs"
+  },
+  "files": [
+    "server.mjs",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "plugsky",
+    "ai",
+    "llm",
+    "rag",
+    "claude",
+    "cursor"
+  ],
+  "homepage": "https://plugsky.com",
+  "license": "MIT"
+}
