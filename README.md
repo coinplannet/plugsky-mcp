@@ -12,7 +12,7 @@
 
 | Tool | What it does |
 |---|---|
-| `plugsky_chat` | Chat with any Plugsky model (36+ aliases, 7-tier provider failover) |
+| `plugsky_chat` | Chat with any Plugsky model (39 model IDs, 7-tier provider failover) |
 | `plugsky_models` | Full model catalog incl. per-alias backups |
 | `plugsky_fusion` | Multi-model fan-out / fusion |
 | `plugsky_web_search` | Real-time web search |
@@ -36,3 +36,7 @@ Plus **12 prompts** (rag-cite, model-compare, doc-summarize, …) and **10 resou
 ```
 
 Docs & directory: https://plugsky.com/dashboard#mcp
+
+## Source
+
+This repository contains the stdio bridge source (`server.mjs`) published as [`@plugsky/mcp`](https://www.npmjs.com/package/@plugsky/mcp) under the MIT license. The hosted remote endpoint is `https://plugsky.com/mcp`; the stdio bridge is for clients that cannot use a remote MCP server.
