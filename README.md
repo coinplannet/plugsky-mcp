@@ -1,5 +1,7 @@
 # Plugsky MCP
 
+[![Plugsky MCP on Glama](https://glama.ai/mcp/servers/com.plugsky/plugsky-mcp/badge)](https://glama.ai/mcp/connectors/com.plugsky/plugsky-mcp)
+
 **Every AI model — one API — over the Model Context Protocol.**
 
 - 🌐 **Remote (recommended):** `https://plugsky.com/mcp` (Streamable-HTTP, Bearer auth — get a key at https://plugsky.com/dashboard)
