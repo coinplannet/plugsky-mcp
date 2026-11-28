@@ -40,3 +40,13 @@ Docs & directory: https://plugsky.com/dashboard#mcp
 ## Source
 
 This repository contains the stdio bridge source (`server.mjs`) published as [`@plugsky/mcp`](https://www.npmjs.com/package/@plugsky/mcp) under the MIT license. The hosted remote endpoint is `https://plugsky.com/mcp`; the stdio bridge is for clients that cannot use a remote MCP server.
+
+
+## Enterprise API and deployment
+
+The MCP server uses the same OpenAI-compatible API base as the HTTP API: `https://api.plugsky.com/v1`. Flat plans Builder ($60/mo) and Scale ($120/mo) have no monthly token cap and no per-token overage; annual billing saves 20%, first month is 30% off capped at $20, and there is a 7-day guarantee. Private deployment is by contract in Virginia, Frankfurt, UAE and Singapore, with Riyadh on Enterprise only. Security work is aligned with SOC 2 and ISO 27001 practices; Plugsky does not hold those certifications, documentation is under NDA, and there is no FedRAMP authorization.
+
+- Enterprise AI API package: https://plugsky.com/enterprise/ai-api-package
+- Sovereign AI package: https://plugsky.com/enterprise/sovereign-ai-package
+- Enterprise AI API verification checklist: https://plugsky.com/articles/enterprise-ai-api-verification-checklist
+- Enterprise AI platform comparison (2027): https://plugsky.com/best/enterprise-ai-platform-2027
